@@ -44,7 +44,7 @@ var isEmptyCollection = require( '@stdlib/assert-is-empty-collection' );
 
 #### isEmptyCollection( value )
 
-Tests if a value is an empty `collection`.
+Tests if a value is an empty collection.
 
 ```javascript
 var bool = isEmptyCollection( [] );
@@ -59,7 +59,7 @@ var bool = isEmptyCollection( [] );
 
 ## Examples
 
-<!-- eslint-disable object-curly-newline, no-array-constructor -->
+<!-- eslint-disable object-curly-newline -->
 
 <!-- eslint no-undef: "error" -->
 
@@ -78,37 +78,34 @@ var isEmptyCollection = require( '@stdlib/assert-is-empty-collection' );
 var bool = isEmptyCollection( [] );
 // returns true
 
-bool = isEmptyCollection( new Float64Array( 0 ) );
+bool = isEmptyCollection( new Float64Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Float32Array( 0 ) );
+bool = isEmptyCollection( new Float32Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Int32Array( 0 ) );
+bool = isEmptyCollection( new Int32Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Uint32Array( 0 ) );
+bool = isEmptyCollection( new Uint32Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Int16Array( 0 ) );
+bool = isEmptyCollection( new Int16Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Uint16Array( 0 ) );
+bool = isEmptyCollection( new Uint16Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Int8Array( 0 ) );
+bool = isEmptyCollection( new Int8Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Uint8Array( 0 ) );
+bool = isEmptyCollection( new Uint8Array( [] ) );
 // returns true
 
-bool = isEmptyCollection( new Uint8ClampedArray( 0 ) );
+bool = isEmptyCollection( new Uint8ClampedArray( [] ) );
 // returns true
 
 bool = isEmptyCollection( { 'length': 0 } );
-// returns true
-
-bool = isEmptyCollection( new Array() );
 // returns true
 
 bool = isEmptyCollection( [ 1, 2, 3, 4 ] );
