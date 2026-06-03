@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-30)
+## Unreleased (2026-06-03)
 
 <section class="issues">
 
@@ -24,6 +24,7 @@ This release closes the following issue:
 
 <details>
 
+-   [`3dc641d`](https://github.com/stdlib-js/stdlib/commit/3dc641dc0a6bbd17f8cee1f10064d2172aecfe8f) - **chore:** remove unused types reference [(#12452)](https://github.com/stdlib-js/stdlib/pull/12452) _(by Philipp Burckhardt)_
 -   [`67c0a20`](https://github.com/stdlib-js/stdlib/commit/67c0a2044e515ea6733765a48be54f09ea749d8f) - **bench:** refactor to use string interpolation in `@stdlib/assert` [(#11398)](https:-/github.com/stdlib-js/stdlib/pull/11398) _(by Karan Anand)_
 -   [`2c3cce1`](https://github.com/stdlib-js/stdlib/commit/2c3cce1ea3c3418873ff4c22eeaa23f674062178) - **chore:** fix JavaScript lint errors [(#10724)](https://github.com/stdlib-js/stdlib/pull/10724) _(by travisBREAKS, stdlib-bot)_
 
@@ -37,9 +38,10 @@ This release closes the following issue:
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Karan Anand
+-   Philipp Burckhardt
 -   travisBREAKS
 
 </section>
